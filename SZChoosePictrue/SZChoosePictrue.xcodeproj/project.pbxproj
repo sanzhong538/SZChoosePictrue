@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		524699681D1A2321004CC3DC /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524699671D1A2321004CC3DC /* GameController.swift */; };
+		5246996A1D1A6519004CC3DC /* GameViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524699691D1A6519004CC3DC /* GameViewCell.swift */; };
+		524829BB1D1B720B004C6810 /* RecordController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524829BA1D1B720B004C6810 /* RecordController.swift */; };
+		524829BD1D1BC0CB004C6810 /* RecordDataTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524829BC1D1BC0CB004C6810 /* RecordDataTool.swift */; };
+		524A51581D19159A000FF3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A51571D19159A000FF3C4 /* AppDelegate.swift */; };
+		524A515A1D19159A000FF3C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A51591D19159A000FF3C4 /* ViewController.swift */; };
+		524A515D1D19159A000FF3C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524A515B1D19159A000FF3C4 /* Main.storyboard */; };
+		524A515F1D19159A000FF3C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 524A515E1D19159A000FF3C4 /* Assets.xcassets */; };
+		524A51621D19159A000FF3C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524A51601D19159A000FF3C4 /* LaunchScreen.storyboard */; };
+		524A516C1D1917E1000FF3C4 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 524A516B1D1917E1000FF3C4 /* default.jpg */; };
+		524A516E1D1930E7000FF3C4 /* SZImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524A516D1D1930E7000FF3C4 /* SZImage.swift */; };
+		552D49951436E392490B2D0D /* libPods-SZChoosePictrue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A325A4B77C133377D2CB21 /* libPods-SZChoosePictrue.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		524699671D1A2321004CC3DC /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		524699691D1A6519004CC3DC /* GameViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewCell.swift; sourceTree = "<group>"; };
+		524829BA1D1B720B004C6810 /* RecordController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordController.swift; sourceTree = "<group>"; };
+		524829BC1D1BC0CB004C6810 /* RecordDataTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordDataTool.swift; sourceTree = "<group>"; };
+		524829BE1D1BC422004C6810 /* SZChoosePictrue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SZChoosePictrue-Bridging-Header.h"; sourceTree = "<group>"; };
+		524A51541D19159A000FF3C4 /* SZChoosePictrue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZChoosePictrue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		524A51571D19159A000FF3C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		524A51591D19159A000FF3C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		524A515C1D19159A000FF3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		524A515E1D19159A000FF3C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		524A51611D19159A000FF3C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		524A51631D19159A000FF3C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		524A516B1D1917E1000FF3C4 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		524A516D1D1930E7000FF3C4 /* SZImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SZImage.swift; sourceTree = "<group>"; };
+		BAB66C49685891DCB30C470D /* Pods-SZChoosePictrue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZChoosePictrue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SZChoosePictrue/Pods-SZChoosePictrue.debug.xcconfig"; sourceTree = "<group>"; };
+		C9AADDD681A30F596A849DBF /* Pods-SZChoosePictrue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SZChoosePictrue.release.xcconfig"; path = "Pods/Target Support Files/Pods-SZChoosePictrue/Pods-SZChoosePictrue.release.xcconfig"; sourceTree = "<group>"; };
+		F3A325A4B77C133377D2CB21 /* libPods-SZChoosePictrue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SZChoosePictrue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		524A51511D19159A000FF3C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				552D49951436E392490B2D0D /* libPods-SZChoosePictrue.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484933A7C5F8EDEDA9930324 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3A325A4B77C133377D2CB21 /* libPods-SZChoosePictrue.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		524A514B1D19159A000FF3C4 = {
+			isa = PBXGroup;
+			children = (
+				524A51561D19159A000FF3C4 /* SZChoosePictrue */,
+				524A51551D19159A000FF3C4 /* Products */,
+				6EE92FCF442698F572715CC4 /* Pods */,
+				484933A7C5F8EDEDA9930324 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		524A51551D19159A000FF3C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				524A51541D19159A000FF3C4 /* SZChoosePictrue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		524A51561D19159A000FF3C4 /* SZChoosePictrue */ = {
+			isa = PBXGroup;
+			children = (
+				524A51571D19159A000FF3C4 /* AppDelegate.swift */,
+				524A51591D19159A000FF3C4 /* ViewController.swift */,
+				524699671D1A2321004CC3DC /* GameController.swift */,
+				524829BA1D1B720B004C6810 /* RecordController.swift */,
+				524829BC1D1BC0CB004C6810 /* RecordDataTool.swift */,
+				524699691D1A6519004CC3DC /* GameViewCell.swift */,
+				524A516D1D1930E7000FF3C4 /* SZImage.swift */,
+				524829BE1D1BC422004C6810 /* SZChoosePictrue-Bridging-Header.h */,
+				524A515B1D19159A000FF3C4 /* Main.storyboard */,
+				524A516B1D1917E1000FF3C4 /* default.jpg */,
+				524A515E1D19159A000FF3C4 /* Assets.xcassets */,
+				524A51601D19159A000FF3C4 /* LaunchScreen.storyboard */,
+				524A51631D19159A000FF3C4 /* Info.plist */,
+			);
+			path = SZChoosePictrue;
+			sourceTree = "<group>";
+		};
+		6EE92FCF442698F572715CC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAB66C49685891DCB30C470D /* Pods-SZChoosePictrue.debug.xcconfig */,
+				C9AADDD681A30F596A849DBF /* Pods-SZChoosePictrue.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		524A51531D19159A000FF3C4 /* SZChoosePictrue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 524A51661D19159A000FF3C4 /* Build configuration list for PBXNativeTarget "SZChoosePictrue" */;
+			buildPhases = (
+				BA36DC2F615540A54532898F /* 📦 Check Pods Manifest.lock */,
+				524A51501D19159A000FF3C4 /* Sources */,
+				524A51511D19159A000FF3C4 /* Frameworks */,
+				524A51521D19159A000FF3C4 /* Resources */,
+				1A8C099883EF8CD3860D3B5C /* 📦 Embed Pods Frameworks */,
+				042FFD987331189BE9E15F8F /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZChoosePictrue;
+			productName = SZChoosePictrue;
+			productReference = 524A51541D19159A000FF3C4 /* SZChoosePictrue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		524A514C1D19159A000FF3C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "吴三忠";
+				TargetAttributes = {
+					524A51531D19159A000FF3C4 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 524A514F1D19159A000FF3C4 /* Build configuration list for PBXProject "SZChoosePictrue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 524A514B1D19159A000FF3C4;
+			productRefGroup = 524A51551D19159A000FF3C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				524A51531D19159A000FF3C4 /* SZChoosePictrue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		524A51521D19159A000FF3C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524A51621D19159A000FF3C4 /* LaunchScreen.storyboard in Resources */,
+				524A515F1D19159A000FF3C4 /* Assets.xcassets in Resources */,
+				524A515D1D19159A000FF3C4 /* Main.storyboard in Resources */,
+				524A516C1D1917E1000FF3C4 /* default.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		042FFD987331189BE9E15F8F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SZChoosePictrue/Pods-SZChoosePictrue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A8C099883EF8CD3860D3B5C /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SZChoosePictrue/Pods-SZChoosePictrue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA36DC2F615540A54532898F /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		524A51501D19159A000FF3C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				524829BB1D1B720B004C6810 /* RecordController.swift in Sources */,
+				524829BD1D1BC0CB004C6810 /* RecordDataTool.swift in Sources */,
+				5246996A1D1A6519004CC3DC /* GameViewCell.swift in Sources */,
+				524A516E1D1930E7000FF3C4 /* SZImage.swift in Sources */,
+				524699681D1A2321004CC3DC /* GameController.swift in Sources */,
+				524A515A1D19159A000FF3C4 /* ViewController.swift in Sources */,
+				524A51581D19159A000FF3C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		524A515B1D19159A000FF3C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524A515C1D19159A000FF3C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		524A51601D19159A000FF3C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				524A51611D19159A000FF3C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		524A51641D19159A000FF3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		524A51651D19159A000FF3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		524A51671D19159A000FF3C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAB66C49685891DCB30C470D /* Pods-SZChoosePictrue.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SZChoosePictrue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.incons.SZChoosePictrue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/INCONS/Desktop/测试/SZChoosePictrue/SZChoosePictrue/SZChoosePictrue-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		524A51681D19159A000FF3C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9AADDD681A30F596A849DBF /* Pods-SZChoosePictrue.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SZChoosePictrue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.incons.SZChoosePictrue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/INCONS/Desktop/测试/SZChoosePictrue/SZChoosePictrue/SZChoosePictrue-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		524A514F1D19159A000FF3C4 /* Build configuration list for PBXProject "SZChoosePictrue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A51641D19159A000FF3C4 /* Debug */,
+				524A51651D19159A000FF3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		524A51661D19159A000FF3C4 /* Build configuration list for PBXNativeTarget "SZChoosePictrue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				524A51671D19159A000FF3C4 /* Debug */,
+				524A51681D19159A000FF3C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 524A514C1D19159A000FF3C4 /* Project object */;
+}
